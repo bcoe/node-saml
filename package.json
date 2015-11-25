@@ -1,0 +1,19 @@
+{
+  "name": "npmo-saml",
+  "version": "1.0.0",
+  "description": "saml testing for npm On-Site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test --coverage"
+  },
+  "keywords": [
+    "saml"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "dependencies": {
+    "open": "0.0.5",
+    "restify": "^4.0.3",
+    "saml2-js": "^1.2.0"
+  }
+}
